@@ -17,8 +17,10 @@
                 </div>
             </section>
             <section class="menu-area">
-                <nav class="main-menu">
-                    Menu
-                </nav>
+                <div class="container">
+                    <nav class="main-menu">
+                        <?php wp_nav_menu( array( 'theme_location' => 'wpdevs_main_menu', 'depth' => 0 ) ); ?>
+                    </nav>
+                </div>
             </section>
         </header>
